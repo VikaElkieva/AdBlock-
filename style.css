@@ -1,0 +1,86 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #d60000, #2e2e2e);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.alert-box {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+
+p {
+    color: #eee;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.6;
+    white-space: pre-line;
+}
+
+p strong {
+    font-weight: 600;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.download-button {
+    width: 230px;
+    height: 55px;
+    background: #8b0000; /* Темно-красный цвет */
+    color: white;
+    border: none;
+    border-radius: 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6); /* Темная тень */
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+.download-button:hover {
+    background: #a30000;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.8);
+}
+
+.cancel-button {
+    display: inline-block;
+    margin-top: 20px;
+    background: #917f76;
+    color: white;
+    padding: 8px 8px;
+    font-size: 1rem;
+    width: 80px;
+    border-radius: 40px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cancel-button:hover {
+    background: rgba(120, 90, 60, 0.9);
+}
